@@ -13,7 +13,7 @@ public class StarsInTheSky {
 		sky.add(new Star("The Sun"));//1
 		sky.add(new Star("Betelgeuse")); //2
 		sky.add(new Star("Vega"));	//3
-		
+		//for each star in the sky
 		for (Star star : sky) {
 			System.out.println(star);
 		}
